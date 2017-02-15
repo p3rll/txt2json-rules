@@ -13,7 +13,7 @@ parser.add_argument('-f','--file', help='Input text file',required=True)
 args = parser.parse_args()
 
 # Output variable
-output = args.output
+# output = args.output
 
 comment_pattern = re.compile(r'\!')
 at_pattern = re.compile(r'\@\@')
