@@ -8,7 +8,7 @@ Version = '1.0'
 # Arguments obviously...
 parser = argparse.ArgumentParser(description='Text to Json converter for firewall filter rules.')
 parser.add_argument('-f','--file', help='Input text file',required=True)
-# parser.add_argument('-o','--output',help='Set the timeout for tests that tend to hang up',default='txt2json.out',required=False)
+# parser.add_argument('-o','--output',help='Output to specified location',default='txt2json.out',required=False)
 
 args = parser.parse_args()
 
